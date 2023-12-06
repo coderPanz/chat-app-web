@@ -1,6 +1,6 @@
 // 连接mogodb数据库的配置信息
 export const configInfos = {
-  HOST: '74.48.164.32',
+  HOST: '124.221.254.213',
   PORT: 27017,
   NAME: 'chat-app'
 }
