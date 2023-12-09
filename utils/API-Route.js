@@ -1,5 +1,5 @@
 const SENT_TEXT_MESSAGE = 'api/sent-message'
-const SOCKETURL = 'https://coderpanz.xyz/port1/port1'
+const SOCKETURL = 'https://coderpanz.xyz/port1'
 const SENT_IMG_MESSAGE = 'https://coderpanz.xyz/port1/express/sent-message/image-message'
 const SENT_AUDIO_MESSAGE = 'https://coderpanz.xyz/port1/express/sent-message/audio-message'
 const GET_MESSAGE_LIST = 'api/get-message-list'
