@@ -74,6 +74,12 @@ const Main = () => {
       socket.current.emit("add-user", session?.user.id.toString());
     }
     setIsAddUser(true);
+     return () => {
+      if (socket.current.readyState === 1) {
+        // <-- This is important
+        socket.current.close();
+      }
+    };
   }, [session?.user]);
 
   // 接收实时消息
