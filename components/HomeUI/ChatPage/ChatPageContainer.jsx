@@ -89,7 +89,7 @@ const ChatPageContainer = () => {
               {/* 图片消息 */}
               {item.type === "image" && (
                 <img
-                  src={`http://124.221.254.213:5000/${item.message}`}
+                  src={`https://coderpanz.xyz/port1/${item.message}`}
                   alt=""
                   className="w-auto h-[200px] rounded-lg"
                 />
@@ -100,7 +100,7 @@ const ChatPageContainer = () => {
                 <div className="flex justify-center items-center">
                   <audio
                     id={`audio${index}`}
-                    src={`http://124.221.254.213:5000/${item.message}`}
+                    src={`https://coderpanz.xyz/port1/${item.message}`}
                   ></audio>
                   <AiFillCaretLeft className=" text-green-600" />
                   <div
@@ -144,7 +144,7 @@ const ChatPageContainer = () => {
               {/* 图片消息 */}
               {item.type === "image" && (
                 <img
-                  src={`http://124.221.254.213:5000/${item.message}`}
+                  src={`https://coderpanz.xyz/port1/s${item.message}`}
                   alt=""
                   className="w-[200px] h-[200px] rounded-lg mr-1"
                 />
@@ -155,7 +155,7 @@ const ChatPageContainer = () => {
                 <div className="flex justify-center items-center">
                   <audio
                     id={`audio${index}`}
-                    src={`http://124.221.254.213:5000/${item.message}`}
+                    src={`https://coderpanz.xyz/port1/${item.message}`}
                   ></audio>
                   <div
                     id={`audio${index}`}
