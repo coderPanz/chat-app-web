@@ -41,6 +41,7 @@ const authOptions = NextAuth({
             isNewUser: true
           });
         }
+        await User.findByIdAndUpdate(userExists._id, { $set: { isNewUser: false } })
         // 登录成功，返回包含用户是否存在的信息给客户端
         return true;
       } catch (error) {
